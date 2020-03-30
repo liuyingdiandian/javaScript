@@ -35,7 +35,6 @@
   
 
 #### 附： 
- <br>
   百度自定义个性化样式地址， 个性化编辑器：  http://lbsyun.baidu.com/customv2/editor/64273224b543444023195598a5282bbb
   百度地图开放平台： http://lbsyun.baidu.com/jsdemo.htm#canvaslayer 
 
