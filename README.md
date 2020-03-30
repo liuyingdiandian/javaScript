@@ -10,7 +10,10 @@
     格式化工具： http://www.bejson.com/jshtml_format/
 
 ##### 2、改造apiv2.0.min.js：
-  * 去掉ak验证： 搜索charset = 'utf-8'，添加 if (/^http/.test(a)) return;
+  * 去掉ak验证： 搜索charset = 'utf-8'，添加:
+    ```javascript
+      if (/^http/.test(a)) return;
+    ```
   
   * 不再使用外部资源，引入本地工具资源：
       * 搜索 domain.main_domain_cdn.baidu[0]，找到使用它定义的z.ma，修改为z.ma = '';
@@ -28,7 +31,6 @@
       
     <br>  
   好啦， 在本地起个加载瓦片的服务就可以用啦~~~
-    
     <br>  
   
   
