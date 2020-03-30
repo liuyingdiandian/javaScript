@@ -5,9 +5,9 @@
 #### 工作中用到离线地图的需求，所以就花了点时间总结一下具体配置过程：
 
 ##### 1、拿到API主文件：
-  下载最新的api文件，不需要申请ak，地址：http://api.map.baidu.com/api?v=2.0：
-  打开框框内的地址，即可看到主文件内容， 格式化一下， 复制到新建 apiv2.0.min.js文件中
-    格式化工具： http://www.bejson.com/jshtml_format/
+  * 下载最新的api文件，不需要申请ak，地址：http://api.map.baidu.com/api?v=2.0：
+  * 打开框框内的地址，即可看到主文件内容， 格式化一下， 复制到新建 apiv2.0.min.js文件中
+  * 格式化工具： http://www.bejson.com/jshtml_format/
 
 ##### 2、改造apiv2.0.min.js：
   * 去掉ak验证： 搜索charset = 'utf-8'，添加:
